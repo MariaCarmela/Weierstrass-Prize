@@ -25,14 +25,19 @@ Anonymized dataset (DataWeierstrass.csv) consisting of a lecture evaluation:
 # Requirements
 
 pip install plotly
+
 pip install matplotlib
+
 pip install numpy
+
 pip install pandas
+
 
 
 # How to run the code
 Plese download the code and run:
+
 python weiestrass.py
 
 # Output
-In *scatterplot matrix.png* and *parallel cordinates.png* you can see the graphs generated with all the features on the axes x and y and a coloured graduated scales on the right to better understand the values. In order to interact with the visualization html pages are generated, one for each graph (
+In *scatterplot matrix.png* and *parallel cordinates.png* you can see the graphs generated with all the features on the x and y axes and a coloured and graduated scales on the right to better understand the values. In order to interact with the visualization html pages are generated, one for each graph (*scatterplot matrix.html* and *parallel coordinates-2.html*)
