@@ -8,7 +8,7 @@ The graphs used for this project(the scatter plot and parallel coordinates graph
 * *clicking* (mouse event) to highlight specific value of each feature
 
 The main modules used are the following:
-* *[plotly.express]*(https://plotly.com/python/plotly-express/) that contains functions that can create entire figures at once
+* [*plotly.express*](https://plotly.com/python/plotly-express/) that contains functions that can create entire figures at once
 * *plotly.offline*
 * *plotly.graph_objs*  that creates [Graph Objects](https://plotly.com/python/graph-objects/)
 
