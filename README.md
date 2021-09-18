@@ -11,3 +11,28 @@ The main modules used are the following:
 * *[plotly.express]*(https://plotly.com/python/plotly-express/) that contains functions that can create entire figures at once
 * *plotly.offline*
 * *plotly.graph_objs*  that creates [Graph Objects](https://plotly.com/python/graph-objects/)
+
+# Dataset
+Anonymized dataset (DataWeierstrass.csv) consisting of a lecture evaluation:
+* Professor-IDs
+* Lecture-IDs
+* Number of participants visiting lecture
+* Professional expertise
+* Motivation
+* Clear presentation
+* Overall impression
+
+# Requirements
+
+pip install plotly
+pip install matplotlib
+pip install numpy
+pip install pandas
+
+
+# How to run the code
+Plese download the code and run:
+python weiestrass.py
+
+# Output
+In *scatterplot matrix.png* and *parallel cordinates.png* you can see the graphs generated with all the features on the axes x and y and a coloured graduated scales on the right to better understand the values. In order to interact with the visualization html pages are generated, one for each graph (
